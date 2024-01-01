@@ -36,8 +36,7 @@ export default function Search() {
         type="text"
         placeholder="Search for cars by make, model or color"
         value={searchValue}
-        className="flex-grow pl-5 bg-transparent focus:outline-none border-transparent
-                focus:border-transparent focus:ring-0 text-sm text-gray-600"
+        className="flex-grow pl-5 bg-transparent focus:outline-none border-transparent first-letter:focus:border-transparent focus:ring-0 text-gray-600"
         onChange={onChange}
         onKeyDown={(e: any) => {
           if (e.key === "Enter") {
