@@ -1,4 +1,4 @@
 # Carsties
 
 ## Description
-Microservices in c# and nextjs
+Microservices in c# aspnetcore, rabbitmq, masstransit and nextjs
